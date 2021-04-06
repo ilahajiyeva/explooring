@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAVIGATION SECTION*/
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.navbar .navbar-nav {
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-left: 190px;
+}
+.social-links {
+    margin-left: 200px;
+}
+
+.social-links a   {
+    font-size: 20px;
+}
+
+
+/*HEADER SECTION*/
+ .header {
+     background-image: linear-gradient(rgba(99,170,219,0.65),rgba(59,139,219,0.65)),
+     url("https://images.pexels.com/photos/2624031/pexels-photo-2624031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     text-align: center;
+ }
+ .header h1 {
+     margin-top: 150px;
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 70px;
+     letter-spacing: 1px;
+ }
+.header p {
+    letter-spacing: 5px;
+}
+.header .btn {
+    border:  2px solid #fff;
+    background: transparent;
+    width: 50%;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*ABOUT SECTION*/
+.about-section h1, h2,
+.service-section h1,
+.featured-section h1,
+.gallery-section h1,
+.contact-section h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*SERVICE SECTION*/
+.service-section {
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+.service-section .lni {
+    font-size: 50px;
+}
+.service-section strong {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*FEATURED SECTION*/
+.featured-section {
+    padding: 100px;
+    position: relative;
+}
+.featured-image {
+    transition: all .5s ease;
+}
+.featured-icon {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    visibility: hidden;
+}
+.featured-image:hover {
+    opacity: 0.5;
+}
+.featured-image:hover .featured-icon {
+    visibility: visible;
+}
+.featured-section h5 {
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.featured-section .card {
+    position: relative;
+    border: none;
+    box-shadow: 2px 2px 2px #818181;
+    transition: all .3s ease;
+}
+.featured-section .card img {
+    width: 100%;
+    height: 220px
+}
+.featured-section .card:hover {
+    box-shadow: 6px 6px 6px #818181;
+}
+.featured-section .card .card-time {
+    position: absolute;
+    background-color: #00aced;
+    padding: 5px;
+}
+.featured-section .btn {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/*GALLERY SECTION*/
+.gallery-section {
+    background-color: #8c8c8c;
+}
+.gallery-section  img {
+    height: 200px;
+}
+
+/*CONTACT SECtion*/
+.contact  input {
+   padding: 3px;
+}
+footer {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.footer-links .lni {
+    font-size: 40px;
+}
+footer p {
+    letter-spacing: 3px;
+}
