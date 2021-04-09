@@ -1,41 +1,84 @@
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1200px) {
 }
-
-@media (max-width: 967px) {
+@media only screen and (max-width: 1023px) {
+    .header h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .header p {
+        margin-top: 16px;
+        letter-spacing: 2px;
+    }
+    .header .btn {
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .featured-section .card {
+        width: 100%;
+        height: auto;
+    }
 }
-
-@media screen and (max-width: 768px) {
-}
-
-@media (max-width: 510px) {
-    .navbar .navbar-brand, .navbar .navbar-nav, .social-links {
+@media only screen and (max-width: 767px) {
+    .header h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+    .header p {
+        margin-top: 16px;
+        letter-spacing: 2px;
+    }
+    .header .btn {
+        margin-top: 50px;
+        margin-left: 180px;
+    }
+    .featured-section {
+        text-align: center;
+    }
+    .featured-section .card {
+        width: 100%;
+        height: auto;
+    }
+    .navbar .navbar-nav {
         margin-left: 0;
     }
+    .social-links {
+        margin-left: 0;
+    }
+    .navbar .navbar-brand {
+        margin-left: 0px;
+    }
 
+}
+@media only screen and (max-width: 480px) {
     .header h1 {
-        margin-top: 50px;
-        font-size: 50px;
+        font-size: 40px;
+        margin-top: 100px;
     }
-
     .header p {
-        font-size: 15px;
-        letter-spacing: 0;
-        margin-top: 0;
+        margin-top: 14px;
+        letter-spacing: 2px;
     }
-
     .header .btn {
-        width: 250px;
-        margin-left: 120px;
-        margin-top: 20px;
-}
-
-.service-section {
-    text-align: center;
-}
-
-.contact-section input {
-    width: 50%;
-    margin-left: 10px;
-}
-
+        margin-top: 0;
+        letter-spacing: 1px;
+        width: 200px;
+        margin-left: 110px;
+    }
+    .featured-section {
+        text-align: center;
+    }
+    .featured-section .card {
+        width: 300px;
+        height: auto;
+        right: 10%;
+    }
+    .navbar .navbar-nav {
+        margin-left: 0;
+    }
+    .social-links {
+        margin-left: 0;
+    }
+    .navbar .navbar-brand {
+        margin-left: 0px;
+    }
 }
