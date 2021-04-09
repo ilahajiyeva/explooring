@@ -5,7 +5,9 @@
 }
 
 /*NAVIGATION SECTION*/
-
+.navbar {
+    margin-bottom: 150px;
+}
 .navbar .navbar-brand {
     font-size: 30px;
     margin-left: 100px;
@@ -46,12 +48,15 @@
      letter-spacing: 1px;
  }
 .header p {
+    margin-top: 20px;
     letter-spacing: 5px;
 }
 .header .btn {
+    margin-left: 50px;
+    margin-top:50px;
     border:  2px solid #fff;
     background: transparent;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
